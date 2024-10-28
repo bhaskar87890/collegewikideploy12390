@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cjs": "^0.0.11",
+    "cloudinary": "^2.5.0",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^3.4.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.6.3",
+    "multer": "^1.4.5-lts.1",
+    "nodejs": "^0.0.0",
+    "nodemailer": "^6.9.15",
+    "path": "^0.12.7",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.7",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  },
+  "name": "projectnew",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": ""
+}
