@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="dialog">
+          <button class="close">×</button>
+          <h3>Please enter the 6-digit verification code we sent via SMS:</h3>
+          <span>(we want to make sure it's you before we contact our movers)</span>
+          <div id="form">
+            <form action="http://localhost:5000/api/auth/verify-email" method ="post" >
+              <input type="text" name="code"/>
+            
+          <!-- <input type="text" name="code" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />-->
+          <!--  <button class="btn btn-primary btn-embossed">Verify</button> -->
+          <button onclick="verifyUser()">Verify</button>
+            
+            
+          </div>
+        </form>
+          
+          <div>
+            Didn't receive the code?<br />
+            <a href="#">Send code again</a><br />
+            <a href="#">Change phone number</a>
+          </div>
+           
+        </div>
+      </div>
+     
+</body>
+</html>
